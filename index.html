@@ -21,21 +21,22 @@
 <body>
     <main>
         <div class="interface">
-            <nav class="nav">
+            <nav class="nav">   
                 <a href="#home">HOME</a>
-                <a href="#about">ABOUT ME</a>
-                <a href="#projects">PROJECT</a>
-                <a id="contato" href="#contact">CONTACT</a>
+                <a href="#about">SOBRE</a>
+                <a href="#projects">PROJETOS</a>
+                <a id="contato" href="#contact">CONTATO</a>
             </nav>
 
             <section class="topo" id="home">
                 <div class="interface">
                     <div class="flex">
                         <div class="txt-topo efeito-top">
-                            <h1 id="slogan">TRANSFORMING DATA INTO VALUABLE INSIGHTS<span>.</span></h1>
-                            <p id="info">With advanced analytical methods, discovering patterns and trends 
-                                that are crucial for driving effective and strategic decision-making to the success companies.</p>
-                            <a href="#contact"><button>CONTACT ME</button></a>
+                            <h1 id="slogan">TRANSFORMANDO DADOS EM INSIGHTS VALIOSO<span>.</span></h1>
+                            <p id="info">Com métodos analíticos avançados, descobrindo padrões e tendências 
+                                que são cruciais para impulsionar a tomada de decisões eficazes e 
+                                 para o sucesso das empresas.</p>
+                            <a href="#contact"><button>CONTATO</button></a>
                         </div>
                         <div class="img-topo efeito-top">
                             <img src="me.jpeg" id="eu">
@@ -55,16 +56,15 @@
                     <img src="me.jpeg" alt="">
                 </div>
                 <div class="txt-sobre efeito-sobre">
-                    <h2>HEY, THERE!<span>I'M IZABEL CORREIA</span></h2>
-                    <p>I'm a Computer Scientist from Rio de Janeiro, Brazil. Additionally, I am a Data 
-                        Scientist using Python, R and SQL. 
+                    <h2>OLÁ!<span>SOU IZABEL CORREIA</span></h2>
+                    <p>Sou Cientista da Computação do Rio de Janeiro, Brasil. 
+                        Além disso, sou Cientista de Dados usando Python, R e SQL. 
                     </p>
-                    <p>I have been gaining experience in computing since 2019, when I decided to enroll in university in 2020. 
-                        Throughout these four years of college, I have been learning about backend development; 
-                        however, I am currently dedicated to be a Data Scientist.
+                    <p>Venho ganhando experiência em computação desde 2019, quando decidi ingressar na universidade em 2020. Ao longo desses quatro anos de faculdade, venho aprendendo sobre desenvolvimento backend;
+                        no entanto, atualmente me dedico a ser Cientista de Dados.
                     </p>
                     <p>
-                        I am passionate about being able to speak multiple languages, so I have learned English, Dutch, and Spanish.
+                        Sou apaixonada por falar vários idiomas, por isso aprendi inglês, holandês e espanhol.
                     </p>
                     <div class="btn-social">
                         <a href="https://www.instagram.com/httpscorreia/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
@@ -78,25 +78,25 @@
     </section>
 
     <section class="containerProj" id="projects">
-        <h2>MY <span>PROJECTS</span></h2>
+        <h2>MEUS <span>PROJETOS</span></h2>
         <div class="projetos">
             <div class="proj efeito-proj1">
                 <i class="bi bi-bank"></i>
                 <h4>Bank Analysis</h4>
-                <p>Project developed to contribute to the key data analyses expected within a banking environment.</p>
-                <a href="https://github.com/IzabelCorreia/ChurnAnalysis" target="_blank"><button>Repository</button></a>
+                <p>Projeto desenvolvido para contribuir com as principais análises de dados esperadas em um ambiente bancário.</p>
+                <a href="https://github.com/IzabelCorreia/ChurnAnalysis" target="_blank"><button>Repositorio</button></a>
             </div>
             <div class="proj efeito-proj2">
                 <i class="bi bi-people-fill"></i>
                 <h4>HR Analytics</h4>
-                <p>Project designed to contribute to essential data analyses within the scope of HR Analytics.</p>
-                <a href="https://github.com/IzabelCorreia/HRAnalytics" target="_blank"><button>Repository</button></a>
+                <p>Projeto desenvolvido para contribuir com análises de dados essenciais no âmbito do HR Analytics.</p>
+                <a href="https://github.com/IzabelCorreia/HRAnalytics" target="_blank"><button>Repositorio</button></a>
             </div>
             <div class="proj efeito-proj3">
                 <i class="bi bi-spotify"></i>
                 <h4>Spotify Tracks</h4>
-                <p>Project that use supervised learning to classificaded the songs.</p>
-                <a href="https://github.com/IzabelCorreia/SpotifyTracks" target="_blank"><button>Repository</button></a>
+                <p>Projeto que utiliza aprendizado supervisionado para classificação das músicas.</p>
+                <a href="https://github.com/IzabelCorreia/SpotifyTracks" target="_blank"><button>Repositorio</button></a>
             </div>
     
         </div>
@@ -104,27 +104,27 @@
     </section>
 
     <div class="content" id="contact">
-        <h2>CONTACT</h2>
+        <h2>CONTATO</h2>
         <form id="form" method="POST" action="https://formsubmit.co/contatoizabelcorreia@gmail.com">
             <div>
-                <input id="name" class="inputs required efeito-input1" name="name" type="text" placeholder="Type your name"
+                <input id="name" class="inputs required efeito-input1" name="name" type="text" placeholder="Escreva seu nome"
                     oninput="nameValidate()">
                 <span class="span-required">Digite um nome</span>
             </div>
             <div>
-                <input id="email" class="inputs required efeito-input2" name="email" type="text" placeholder="Type your email">
+                <input id="email" class="inputs required efeito-input2" name="email" type="text" placeholder="Escreva seu email">
                 <span class="span-required">Digite um email valido</span>
             </div>
             <div>
-                <input id="title" class="inputs required efeito-input3" name="title" type="text" placeholder="Type a title">
+                <input id="title" class="inputs required efeito-input3" name="title" type="text" placeholder="Escreva um título">
                 <span class="span-required">Digite um títuloo</span>
             </div>
             <div>
                 <textarea class="textarea efeito-textarea" name="msg" id="textarea" cols="25" rows="10"
-                    placeholder="Type your message..."></textarea>
+                    placeholder="Escreva sua message..."></textarea>
             </div>
             <div>
-                <button id="btn" class="enviar efeito-bot" type="submit">Send</button>
+                <button id="btn" class="enviar efeito-bot" type="submit">Enviar</button>
             </div>
         </form>
     </div>
