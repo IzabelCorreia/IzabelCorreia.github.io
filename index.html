@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izabel Correia | Data Scientist </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="Script.js" defer></script>
+
+
+</head>
+
+<body>
+    <main>
+        <div class="interface">
+            <nav class="nav">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT ME</a>
+                <a href="#projects">PROJECT</a>
+                <a id="contato" href="#contact">CONTACT</a>
+            </nav>
+
+            <section class="topo" id="home">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="txt-topo efeito-top">
+                            <h1 id="slogan">TRANSFORMING DATA INTO VALUABLE INSIGHTS<span>.</span></h1>
+                            <p id="info">With advanced analytical methods, discovering patterns and trends 
+                                that are crucial for driving effective and strategic decision-making to the success companies.</p>
+                            <a href="#contact"><button>CONTACT ME</button></a>
+                        </div>
+                        <div class="img-topo efeito-top">
+                            <img src="me.jpeg" id="eu">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+    </main>
+
+    <section class="sobre" id="about">
+        <div class="interface">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img src="me.jpeg" alt="">
+                </div>
+                <div class="txt-sobre efeito-sobre">
+                    <h2>HEY, THERE!<span>I'M IZABEL CORREIA</span></h2>
+                    <p>I'm a Computer Scientist from Rio de Janeiro, Brazil. Additionally, I am a Data 
+                        Scientist using Python, R and SQL. 
+                    </p>
+                    <p>I have been gaining experience in computing since 2019, when I decided to enroll in university in 2020. 
+                        Throughout these four years of college, I have been learning about backend development; 
+                        however, I am currently dedicated to be a Data Scientist.
+                    </p>
+                    <p>
+                        I am passionate about being able to speak multiple languages, so I have learned English, Dutch, and Spanish.
+                    </p>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/httpscorreia/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/izabel-correia-934087211/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/IzabelCorreia" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="containerProj" id="projects">
+        <h2>MY <span>PROJECTS</span></h2>
+        <div class="projetos">
+            <div class="proj efeito-proj1">
+                <i class="bi bi-bank"></i>
+                <h4>Bank Analysis</h4>
+                <p>Project developed to contribute to the key data analyses expected within a banking environment.</p>
+                <a href="https://github.com/IzabelCorreia/ChurnAnalysis" target="_blank"><button>Repository</button></a>
+            </div>
+            <div class="proj efeito-proj2">
+                <i class="bi bi-people-fill"></i>
+                <h4>HR Analytics</h4>
+                <p>Project designed to contribute to essential data analyses within the scope of HR Analytics.</p>
+                <a href="https://github.com/IzabelCorreia/HRAnalytics" target="_blank"><button>Repository</button></a>
+            </div>
+            <div class="proj efeito-proj3">
+                <i class="bi bi-spotify"></i>
+                <h4>Spotify Tracks</h4>
+                <p>Project that use supervised learning to classificaded the songs.</p>
+                <a href="https://github.com/IzabelCorreia/SpotifyTracks" target="_blank"><button>Repository</button></a>
+            </div>
+    
+        </div>
+        
+    </section>
+
+    <div class="content" id="contact">
+        <h2>CONTACT</h2>
+        <form id="form" method="POST" action="https://formsubmit.co/contatoizabelcorreia@gmail.com">
+            <div>
+                <input id="name" class="inputs required efeito-input1" name="name" type="text" placeholder="Type your name"
+                    oninput="nameValidate()">
+                <span class="span-required">Digite um nome</span>
+            </div>
+            <div>
+                <input id="email" class="inputs required efeito-input2" name="email" type="text" placeholder="Type your email">
+                <span class="span-required">Digite um email valido</span>
+            </div>
+            <div>
+                <input id="title" class="inputs required efeito-input3" name="title" type="text" placeholder="Type a title">
+                <span class="span-required">Digite um títuloo</span>
+            </div>
+            <div>
+                <textarea class="textarea efeito-textarea" name="msg" id="textarea" cols="25" rows="10"
+                    placeholder="Type your message..."></textarea>
+            </div>
+            <div>
+                <button id="btn" class="enviar efeito-bot" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <p>"imagination is more important than knowledge"</p>
+        <p id="arr">2024 © All right Reserved <br>
+            Izabel Correia
+        </p>
+    </footer>
+
+</body>
+
+</html>
